@@ -2,7 +2,8 @@
 const initState = {
     popular : [],
     newGames : [],
-    upcoming : []
+    upcoming : [], 
+    searched : []
 }
 const gamesReducer = (state=initState, action) =>{
     switch(action.type){
